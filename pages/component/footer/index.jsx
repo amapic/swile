@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.css";
 import styled from "styled-components";
 
-import GrandFooter from "./grand/index.jsx"
+import GrandFooter from "./grand/index.jsx";
 const Grand = styled.div`
   @media (min-width: 768px) {
     display: flex;
@@ -40,9 +40,11 @@ const TresPetit = styled.div`
 `;
 
 export default function Footer() {
-  return( <>
-  <Grand >
-  <GrandFooter />
-  </Grand>
-  </>);
+  return (
+    <>
+      {/* <Grand > */}
+      <GrandFooter />
+      {/* </Grand> */}
+    </>
+  );
 }
