@@ -1,3 +1,5 @@
+import "bootstrap/dist/css/bootstrap.css";
+
 export default function Footer() {
   return (
     <div className="w-auto px-2 py-4 bg-dark text-white">
@@ -40,6 +42,52 @@ export default function Footer() {
             </div>
           </div>
         </div>
+      </div>
+      <Bordure />
+      <Colonne />
+    </div>
+  );
+}
+
+function Bordure() {
+  return <div className="w-100 mt-5 pb-5 border border-1"></div>;
+}
+
+function Colonne() {
+  return (
+    <div className="w-100 d-flex flex-row">
+      <div className="w-25">
+        <span>A propos</span>
+        <br />
+        AA
+        <br />
+        BB
+        <br />
+      </div>
+
+      <div className="w-25 ps-4">
+        <span>Mon compte</span>
+        <br />
+        AA
+        <br />
+        BB
+        <br />
+      </div>
+
+      <div className="w-25 ps-4">
+        <span>Ressources</span>
+        AA
+        <br />
+        BB
+        <br />
+      </div>
+
+      <div className="w-25 ps-3">
+        <span>Commerçants</span>
+        AA
+        <br />
+        BB
+        <br />
       </div>
     </div>
   );
