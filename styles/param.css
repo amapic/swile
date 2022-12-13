@@ -1,0 +1,59 @@
+h5 {
+    font-size:14px;
+}
+
+.fcolorGrey{
+    /* color:#3d3d3d; */
+    color:#FFF;
+    line-height:24px;
+    font-weight: 300;
+    opacity: 0.7;
+    text-align: right;
+    font-family:'Graphik', Helvetica, Arial
+}
+
+.texte-swile{
+    /* color:#3d3d3d; */
+    color:#FFF;
+    /* line-height:24px; */
+    font-weight : 300;
+    font-size : 14px;
+    /* opacity: 0.7; */
+    /* text-align: right; */
+    font-family:'Graphik', Helvetica, Arial;
+    font-feature-settings: "liga" 1;
+}
+
+.opacity-70{
+    opacity:0.7;
+}
+
+
+#bas_footer path{
+    fill:#fff;
+    opacity:0.5;
+}
+
+.texte-swile-gris{
+    /* color:#3d3d3d; */
+    color:#FFF;
+    /* line-height:24px; */
+    font-weight : 300;
+    font-size : 13px;
+    opacity: 0.7;
+    /* text-align: right; */
+    font-family:'Graphik', Helvetica, Arial;
+    font-feature-settings: "liga" 1;
+}
+
+.texte-swile-gris{
+    color:#000;
+    /* line-height:24px; */
+    font-weight : 300;
+    font-size : 13px;
+    opacity: 0.7;
+    /* text-align: right; */
+    font-family:'Graphik', Helvetica, Arial;
+    font-feature-settings: "liga" 1;
+
+}

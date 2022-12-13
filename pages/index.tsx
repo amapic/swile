@@ -7,6 +7,7 @@ import Footer from "./component/footer/index";
 
 const Home: NextPage = () => {
   return (
+    <>
     <div className={styles.container}>
       <Head>
         <title>Create Next App</title>
@@ -58,7 +59,7 @@ const Home: NextPage = () => {
           </a>
         </div>
       </main>
-      <Footer />
+      {/* <Footer /> */}
       <footer className={styles.footer}>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
@@ -72,6 +73,8 @@ const Home: NextPage = () => {
         </a>
       </footer>
     </div>
+    <Footer />
+    </>
   );
 };
 
