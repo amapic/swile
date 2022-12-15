@@ -45,12 +45,12 @@ const TresPetit = styled.div`
 export default function Footer() {
   return (
     <>
-      {/* <Grand>
+      <Grand>
         <GrandFooter />
-      </Grand> */}
-      <Medium>
+      </Grand>
+      {/* <Medium>
         <MediumFooter />
-      </Medium>
+      </Medium> */}
     </>
   );
 }

@@ -46,8 +46,9 @@ export default function BarreBasFooter() {
         <img
           style={{ height: "30px", width: "72px" }}
           src="img/swile.png"
-          className="me-4 opacity-50"
+          className="me-4"
         />
+        
         <div
           style={{ width: "300px" }}
           className="d-flex d-row justify-content-around position-relative"
