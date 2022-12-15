@@ -4,26 +4,10 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
 import Footer from "./component/footer/index";
-import Header from "./component/header/index";
-import PartieSup1 from "./component/partie_superieur1/index";
-import PartieSup2 from "./component/corpsPartie2/index";
-import DesQuestions from "./component/elementsfixes/elementsfixes.jsx";
-
 
 const Home: NextPage = () => {
   return (
     <>
-    <DesQuestions />
-    <Header />
-    <PartieSup1 />
-    <PartieSup2 />
-    <div>
-      size1:4px <br />
-      size2:8px <br />
-      size3:16px <br />
-      size4:24px <br />
-      size4:48px <br />
-    </div>
     <div className={styles.container}>
       <Head>
         <title>Create Next App</title>
@@ -75,6 +59,7 @@ const Home: NextPage = () => {
           </a>
         </div>
       </main>
+      {/* <Footer /> */}
       <footer className={styles.footer}>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
@@ -92,7 +77,5 @@ const Home: NextPage = () => {
     </>
   );
 };
-
-
 
 export default Home;

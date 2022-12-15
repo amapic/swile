@@ -87,7 +87,7 @@ function CartoucheGris({ txt }) {
             width: "165px",
             // width: "fit-content",
           }}
-          className="texte-swile-cartouche-gris"
+          className="texte-swile-gris"
         >
           {txt}
         </span>
@@ -117,7 +117,7 @@ function CartoucheBlanc({ txt }) {
             width: "200px",
             width: "fit-content",
           }}
-          className="m-auto texte-swile-cartouche-blanc text-center"
+          className="texte-swile-gris"
         >
           {txt}
         </span>
@@ -150,10 +150,12 @@ function Cartouche({ txt }) {
       >
         <span
           style={{
+            fontSize: "17px",
             width: "165px",
+            color: "#fff",
             width: "fit-content",
           }}
-          className="texte-swile-cartouche-colonne"
+          className=""
         >
           {txt}
         </span>

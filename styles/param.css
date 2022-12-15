@@ -1,28 +1,28 @@
-@font-face {
-    font-family: Graphik;
-    src: url("../public/font/GraphikRegular.otf");
-  }
+h5 {
+    font-size:14px;
+}
 
-
-.MentionsLegales{
-    font-size: 12px;
+.fcolorGrey{
+    /* color:#3d3d3d; */
     color:#FFF;
     line-height:24px;
     font-weight: 300;
     opacity: 0.7;
     text-align: right;
-    font-family:'Graphik', Helvetica, Arial;
+    font-family:'Graphik', Helvetica, Arial
 }
 
 .texte-swile{
+    /* color:#3d3d3d; */
     color:#FFF;
+    /* line-height:24px; */
     font-weight : 300;
     font-size : 14px;
+    /* opacity: 0.7; */
+    /* text-align: right; */
     font-family:'Graphik', Helvetica, Arial;
     font-feature-settings: "liga" 1;
 }
-
-
 
 .opacity-70{
     opacity:0.7;
@@ -34,29 +34,26 @@
     opacity:0.5;
 }
 
-.texte-swile-cartouche-gris{
-    color:#fff;
+.texte-swile-gris{
+    /* color:#3d3d3d; */
+    color:#FFF;
+    /* line-height:24px; */
     font-weight : 300;
     font-size : 13px;
     opacity: 0.7;
+    /* text-align: right; */
     font-family:'Graphik', Helvetica, Arial;
     font-feature-settings: "liga" 1;
 }
 
-.texte-swile-cartouche-blanc{
+.texte-swile-gris{
     color:#000;
+    /* line-height:24px; */
     font-weight : 300;
     font-size : 13px;
     opacity: 0.7;
+    /* text-align: right; */
     font-family:'Graphik', Helvetica, Arial;
     font-feature-settings: "liga" 1;
-}
 
-.texte-swile-cartouche-colonne{
-    color:#fff;
-    font-weight : 300;
-    font-size : 13px;
-    opacity: 1;
-    font-family:'Graphik', Helvetica, Arial;
-    font-feature-settings: "liga" 1;
 }
